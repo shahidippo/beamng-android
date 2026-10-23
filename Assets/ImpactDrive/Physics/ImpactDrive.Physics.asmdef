@@ -1,0 +1,14 @@
+{
+  "name": "ImpactDrive.Physics",
+  "rootNamespace": "ImpactDrive.Physics",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

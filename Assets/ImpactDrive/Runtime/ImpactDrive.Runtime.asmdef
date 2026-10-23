@@ -1,0 +1,6 @@
+{
+  "name": "ImpactDrive.Runtime",
+  "rootNamespace": "ImpactDrive.Runtime",
+  "references": ["ImpactDrive.Physics", "UnityEngine.UI"],
+  "autoReferenced": true
+}

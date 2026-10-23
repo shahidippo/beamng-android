@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Unity 6 Rigidbody API",
+    "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/6000.0/Modules/Physics/ScriptBindings/Rigidbody.bindings.cs",
+    "sha256": "4513dd358a8d191f1af44724df763e7d84c4fb15a9cb105cf77f9a73b8343e2e",
+    "bytes": 10625,
+    "access_date": "2026-10-23",
+    "use": "linearVelocity, GetPointVelocity and AddForceAtPosition API signatures; does not establish runtime correctness."
+  },
+  {
+    "title": "Unity 6 Physics queries",
+    "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/6000.0/Modules/Physics/ScriptBindings/Physics.bindings.cs",
+    "sha256": "1d88915978a36c3ef8a83bfd9180eaebbe1956889477df31830fd442f848cf5c",
+    "bytes": 58806,
+    "access_date": "2026-10-23",
+    "use": "Raycast/SphereCast query signatures and explicit layer/trigger filtering."
+  },
+  {
+    "title": "Unity 6 Android player settings",
+    "url": "https://raw.githubusercontent.com/Unity-Technologies/UnityCsReference/6000.0/Editor/Mono/PlayerSettingsAndroid.bindings.cs",
+    "sha256": "7f24c39c26edd5f976a7588627b058115ceab560f1a15f3d5edb3b57dab65c36",
+    "bytes": 33771,
+    "access_date": "2026-10-23",
+    "use": "ARM64 and minimum/target SDK configuration APIs; installed modules still required."
+  },
+  {
+    "title": "Unity URP package metadata",
+    "url": "https://raw.githubusercontent.com/Unity-Technologies/Graphics/6000.0/staging/Packages/com.unity.render-pipelines.universal/package.json",
+    "sha256": "07bd52c201f5682433fc8071d587129a2f852104d5f762773fa8ba62b5ecee82",
+    "bytes": 1185,
+    "access_date": "2026-10-23",
+    "use": "URP17.0.4 identifies Unity6000.0 and core/shadergraph17.0.4 dependencies."
+  },
+  {
+    "title": "Project Chrono Fiala tire",
+    "url": "https://raw.githubusercontent.com/projectchrono/chrono/main/src/chrono_vehicle/wheeled_vehicle/tire/ChFialaTire.cpp",
+    "sha256": "c4220068e735967b1a3d1263d3fb12a463937a30065b6bb385cfa2aa96df9d34",
+    "bytes": 9781,
+    "access_date": "2026-10-23",
+    "use": "Slip kinematics, nonlinear saturation, load dependence, rolling resistance and contact reset. Our combined-slip approximation is not this implementation or a calibrated Fiala model."
+  },
+  {
+    "title": "Project Chrono translational spring damper",
+    "url": "https://raw.githubusercontent.com/projectchrono/chrono/main/src/chrono/physics/ChLinkTSDA.cpp",
+    "sha256": "a6a5b9b4d00c3210ad321bf544393c27b1b8389de7394c997b61f5d02834a849",
+    "bytes": 19505,
+    "access_date": "2026-10-23",
+    "use": "Spring/damping force from displacement and velocity and equal/opposite forces at attachment points."
+  },
+  {
+    "title": "Project Chrono shaft clutch",
+    "url": "https://raw.githubusercontent.com/projectchrono/chrono/main/src/chrono/physics/ChShaftsClutch.cpp",
+    "sha256": "0ed9fdab9094aeeb6b41786ff62743e70b1b7157800ef13961b7e608c0a9b999",
+    "bytes": 6620,
+    "access_date": "2026-10-23",
+    "use": "Bounded torque transfer between shafts; an engineering reference, not proof our simplified clutch matches a vehicle."
+  }
+]

@@ -1,0 +1,19 @@
+name: Unity and Android (licensed self-hosted runner)
+on: workflow_dispatch
+jobs:
+  unity:
+    runs-on: [self-hosted, linux, unity-6000.0.62f1, android]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unity integration tests
+        run: bash Tools/unity.sh test
+      - name: Build development ARM64 APK
+        run: bash Tools/unity.sh android
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: unity-android-results
+          path: |
+            Artifacts/Unity/
+            Artifacts/Android/
+          if-no-files-found: warn

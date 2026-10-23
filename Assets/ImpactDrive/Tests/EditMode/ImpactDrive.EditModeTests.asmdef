@@ -1,0 +1,14 @@
+{
+  "name": "ImpactDrive.EditModeTests",
+  "rootNamespace": "ImpactDrive.Tests",
+  "references": ["ImpactDrive.Physics"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

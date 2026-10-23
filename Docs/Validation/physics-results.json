@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "generatedUtc": "2026-10-23T11:02:15.8921705+00:00",
+  "scope": "Production pure C# model invariants and save persistence; synthetic fixed-load longitudinal bench is diagnostic only; excludes Unity/PhysX and Android validation",
+  "total": 55,
+  "passed": 55,
+  "failed": 0,
+  "skipped": 0,
+  "checks": [
+    {
+      "Name": "configuration/default vehicle has valid finite SI parameters",
+      "Status": "passed",
+      "DurationMs": 4.9061,
+      "Error": null
+    },
+    {
+      "Name": "configuration/nonphysical mass and NaN values are rejected",
+      "Status": "passed",
+      "DurationMs": 2.9081,
+      "Error": null
+    },
+    {
+      "Name": "configuration/torque curve must be strictly ordered",
+      "Status": "passed",
+      "DurationMs": 0.1013,
+      "Error": null
+    },
+    {
+      "Name": "configuration/independent defaults do not share mutable tuning",
+      "Status": "passed",
+      "DurationMs": 0.1745,
+      "Error": null
+    },
+    {
+      "Name": "steering/straight ahead produces zero wheel angles",
+      "Status": "passed",
+      "DurationMs": 0.1502,
+      "Error": null
+    },
+    {
+      "Name": "steering/right wheel is inside a right turn",
+      "Status": "passed",
+      "DurationMs": 0.0595,
+      "Error": null
+    },
+    {
+      "Name": "steering/left and right turns are mirrored",
+      "Status": "passed",
+      "DurationMs": 0.1106,
+      "Error": null
+    },
+    {
+      "Name": "steering/Ackermann wheel axes share the same turn centre",
+      "Status": "passed",
+      "DurationMs": 0.119,
+      "Error": null
+    },
+    {
+      "Name": "tires/free rolling produces no propulsive or lateral force",
+      "Status": "passed",
+      "DurationMs": 0.747,
+      "Error": null
+    },
+    {
+      "Name": "tires/stationary contact does not create energy",
+      "Status": "passed",
+      "DurationMs": 0.1388,
+      "Error": null
+    },
+    {
+      "Name": "tires/wheelspin drives forward and reverse with correct sign",
+      "Status": "passed",
+      "DurationMs": 0.1682,
+      "Error": null
+    },
+    {
+      "Name": "tires/locked wheel dissipates forward and reverse translation",
+      "Status": "passed",
+      "DurationMs": 0.153,
+      "Error": null
+    },
+    {
+      "Name": "tires/lateral force opposes sideslip in either travel direction",
+      "Status": "passed",
+      "DurationMs": 0.5725,
+      "Error": null
+    },
+    {
+      "Name": "tires/combined grip circle holds over load and slip sweep",
+      "Status": "passed",
+      "DurationMs": 60.263,
+      "Error": null
+    },
+    {
+      "Name": "tires/load sensitivity reduces coefficient as wheel load increases",
+      "Status": "passed",
+      "DurationMs": 0.3417,
+      "Error": null
+    },
+    {
+      "Name": "tires/dry wet and ice have ordered traction limits",
+      "Status": "passed",
+      "DurationMs": 0.2835,
+      "Error": null
+    },
+    {
+      "Name": "tires/unloaded wheel clears contact force and relaxation history",
+      "Status": "passed",
+      "DurationMs": 0.1977,
+      "Error": null
+    },
+    {
+      "Name": "tires/relaxation is independent of step partition for constant contact",
+      "Status": "passed",
+      "DurationMs": 0.088,
+      "Error": null
+    },
+    {
+      "Name": "tires/nonpositive integration step is rejected",
+      "Status": "passed",
+      "DurationMs": 0.6544,
+      "Error": null
+    },
+    {
+      "Name": "suspension/static sag supports configured axle weight",
+      "Status": "passed",
+      "DurationMs": 0.1972,
+      "Error": null
+    },
+    {
+      "Name": "suspension/bump stop increases tangent stiffness near travel limit",
+      "Status": "passed",
+      "DurationMs": 0.0483,
+      "Error": null
+    },
+    {
+      "Name": "suspension/no compression or velocity supplies no support",
+      "Status": "passed",
+      "DurationMs": 0.0205,
+      "Error": null
+    },
+    {
+      "Name": "suspension/increasing compression increases static support",
+      "Status": "passed",
+      "DurationMs": 0.0363,
+      "Error": null
+    },
+    {
+      "Name": "suspension/damping opposes compression and rebound motion",
+      "Status": "passed",
+      "DurationMs": 0.0301,
+      "Error": null
+    },
+    {
+      "Name": "suspension/rapid rebound cannot produce tensile contact",
+      "Status": "passed",
+      "DurationMs": 0.0168,
+      "Error": null
+    },
+    {
+      "Name": "suspension/antiroll force is antisymmetric and absent in heave",
+      "Status": "passed",
+      "DurationMs": 0.0504,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/torque curve interpolates its engineering data",
+      "Status": "passed",
+      "DurationMs": 0.4156,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/gear change interrupts torque for shift duration",
+      "Status": "passed",
+      "DurationMs": 0.6239,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/gearbox losses cannot add transmitted power",
+      "Status": "passed",
+      "DurationMs": 1.6604,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/out-of-range gears are rejected",
+      "Status": "passed",
+      "DurationMs": 2.2494,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/neutral disconnects wheel torque",
+      "Status": "passed",
+      "DurationMs": 0.1165,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/forward and reverse gears deliver opposite torque",
+      "Status": "passed",
+      "DurationMs": 0.1664,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/switched off engine provides no drive torque",
+      "Status": "passed",
+      "DurationMs": 0.208,
+      "Error": null
+    },
+    {
+      "Name": "powertrain/destroyed engine cannot provide normal power",
+      "Status": "passed",
+      "DurationMs": 0.15,
+      "Error": null
+    },
+    {
+      "Name": "damage/zero-energy contact causes no deformation",
+      "Status": "passed",
+      "DurationMs": 2.0215,
+      "Error": null
+    },
+    {
+      "Name": "damage/plastic work never exceeds available impact energy",
+      "Status": "passed",
+      "DurationMs": 0.3213,
+      "Error": null
+    },
+    {
+      "Name": "damage/larger impact produces at least as much plastic work",
+      "Status": "passed",
+      "DurationMs": 0.1162,
+      "Error": null
+    },
+    {
+      "Name": "damage/distant contact does not deform unrelated body structure",
+      "Status": "passed",
+      "DurationMs": 0.0636,
+      "Error": null
+    },
+    {
+      "Name": "damage/repeated impacts cannot exceed node deformation bounds",
+      "Status": "passed",
+      "DurationMs": 1.7129,
+      "Error": null
+    },
+    {
+      "Name": "damage/opposite impacts cannot erase plastic work or repair nodes",
+      "Status": "passed",
+      "DurationMs": 2.5712,
+      "Error": null
+    },
+    {
+      "Name": "damage/reset restores pristine structural state",
+      "Status": "passed",
+      "DurationMs": 0.1747,
+      "Error": null
+    },
+    {
+      "Name": "saves/checksummed UTF8 payload round trips exactly",
+      "Status": "passed",
+      "DurationMs": 10.0852,
+      "Error": null
+    },
+    {
+      "Name": "saves/backup rotates to immediately previous valid write",
+      "Status": "passed",
+      "DurationMs": 0.4748,
+      "Error": null
+    },
+    {
+      "Name": "saves/payload checksum detects corruption despite valid envelope",
+      "Status": "passed",
+      "DurationMs": 0.2619,
+      "Error": null
+    },
+    {
+      "Name": "saves/both corrupt copies fail safely",
+      "Status": "passed",
+      "DurationMs": 0.1522,
+      "Error": null
+    },
+    {
+      "Name": "saves/writing after corruption preserves last good backup",
+      "Status": "passed",
+      "DurationMs": 0.2482,
+      "Error": null
+    },
+    {
+      "Name": "saves/oversized writes reject without damaging existing data",
+      "Status": "passed",
+      "DurationMs": 1.1806,
+      "Error": null
+    },
+    {
+      "Name": "saves/oversized on-disk primary is rejected with backup recovery",
+      "Status": "passed",
+      "DurationMs": 0.3039,
+      "Error": null
+    },
+    {
+      "Name": "saves/missing save returns null and empty valid payload is preserved",
+      "Status": "passed",
+      "DurationMs": 0.199,
+      "Error": null
+    },
+    {
+      "Name": "coupled bench/neutral resting wheels cannot spontaneously accelerate",
+      "Status": "passed",
+      "DurationMs": 29.0681,
+      "Error": null
+    },
+    {
+      "Name": "coupled bench/coasting dissipates translational energy",
+      "Status": "passed",
+      "DurationMs": 17.3222,
+      "Error": null
+    },
+    {
+      "Name": "coupled bench/launch accelerates with bounded wheel reaction torque",
+      "Status": "passed",
+      "DurationMs": 20.6801,
+      "Error": null
+    },
+    {
+      "Name": "coupled bench/60Hz and 120Hz retain similar launch response",
+      "Status": "passed",
+      "DurationMs": 34.309,
+      "Error": null
+    },
+    {
+      "Name": "coupled bench/reverse drivetrain drives negative translation",
+      "Status": "passed",
+      "DurationMs": 12.4827,
+      "Error": null
+    },
+    {
+      "Name": "coupled bench/ice requires longer locked-wheel stop than dry asphalt",
+      "Status": "passed",
+      "DurationMs": 79.6385,
+      "Error": null
+    }
+  ],
+  "measurements": [
+    {
+      "Name": "fixed-load bench speed after 10s full throttle",
+      "Value": 82.52861709594727,
+      "Unit": "km/h"
+    },
+    {
+      "Name": "fixed-load bench 60Hz speed after 10s",
+      "Value": 79.3692855834961,
+      "Unit": "km/h"
+    },
+    {
+      "Name": "fixed-load bench 120Hz speed after 10s",
+      "Value": 82.52861709594727,
+      "Unit": "km/h"
+    },
+    {
+      "Name": "fixed-load bench dry 100km/h locked-wheel stop to 0.5m/s",
+      "Value": 43.66664123535156,
+      "Unit": "m"
+    },
+    {
+      "Name": "fixed-load bench ice 100km/h locked-wheel stop to 0.5m/s",
+      "Value": 467.49334716796875,
+      "Unit": "m"
+    }
+  ]
+}

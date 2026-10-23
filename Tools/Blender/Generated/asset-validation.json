@@ -1,0 +1,46 @@
+{
+  "status": "pass",
+  "checks": [
+    "mesh indices",
+    "nondegenerate triangles",
+    "finite coordinates",
+    "material references",
+    "SI dimensions",
+    "tyre radius",
+    "steering separation",
+    "merged wheel geometry",
+    "spec axle/tyre bounds",
+    "manifest counts"
+  ],
+  "body": {
+    "vertices": 5496,
+    "triangles": 10516,
+    "objects": 5,
+    "extentM": [
+      2.22,
+      1.1724999999999999,
+      4.209
+    ]
+  },
+  "wheel": {
+    "vertices": 3408,
+    "triangles": 6420,
+    "objects": 1,
+    "extentM": [
+      0.23108,
+      0.62,
+      0.62
+    ]
+  },
+  "brake": {
+    "vertices": 56,
+    "triangles": 108,
+    "objects": 1,
+    "extentM": [
+      0.055,
+      0.13,
+      0.059999999999999984
+    ]
+  },
+  "maximumWheelRadiusM": 0.31007947834385946
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Aster 1.6",
+  "author": "Original procedural model for ImpactDrive Mobile",
+  "units": "metres",
+  "axes": "Unity X right, Y up, Z forward",
+  "bodyDimensionsM": {
+    "width": 2.22,
+    "length": 4.209,
+    "height": 1.1724999999999999
+  },
+  "wheelRadiusM": 0.31,
+  "wheelWidthM": 0.205,
+  "wheelbaseM": 2.6,
+  "trackM": 1.52,
+  "status": "Engineering asset; production detailing and runtime inspection pending",
+  "geometry": {
+    "body": {
+      "vertices": 5496,
+      "triangles": 10516,
+      "objects": 5,
+      "sourceParts": 78,
+      "extentM": [
+        2.22,
+        1.1724999999999999,
+        4.209
+      ]
+    },
+    "wheel": {
+      "vertices": 3408,
+      "triangles": 6420,
+      "objects": 1,
+      "sourceParts": 100,
+      "extentM": [
+        0.23108,
+        0.62,
+        0.62
+      ]
+    },
+    "brake": {
+      "vertices": 56,
+      "triangles": 108,
+      "objects": 1,
+      "sourceParts": 1,
+      "extentM": [
+        0.055,
+        0.13,
+        0.059999999999999984
+      ]
+    }
+  }
+}

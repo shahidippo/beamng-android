@@ -1,0 +1,11 @@
+{
+  "name": "ImpactDrive.Editor",
+  "rootNamespace": "ImpactDrive.Editor",
+  "references": [
+    "ImpactDrive.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime",
+    "Unity.RenderPipelines.Core.Runtime"
+  ],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
